@@ -46,6 +46,7 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   owl:imports sosa: ;
   skos:changeNote "2021-04-07 - replace local lithology concepts with common lithology concepts from Substrate" ;
   skos:changeNote "2021-04-08 - replace local material strength concepts with common material strength concepts from Substrate" ;
+  skos:changeNote "2022-07-26 - add observable-properties collection" ;
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition andskos:prefLabel" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"^^rdf:HTML ;
   skos:hasTopConcept ls:aggradation-0 ;
@@ -1270,6 +1271,7 @@ ls:erosion-G-3
 .
 ls:erosion-G-depth
   a skos:Collection ;
+  a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth"^^xsd:anyURI ;
   skos:definition "This gives the maximum depth within the site."@en ;
   skos:member ls:erosion-G-depth-1 ;
@@ -2214,11 +2216,56 @@ ls:microrelief-horizontal-interval
 .
 ls:microrelief-vertical-interval
   a skos:Concept ;
+  a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-vertical-interval"^^xsd:anyURI ;
   skos:definition "Give vertical distance, in metres, between base of depression or flat and horizontal line joining crests of mounds or hummocks."@en ;
   skos:inScheme asls:land-surface ;
   skos:prefLabel "Vertical interval"@en ;
   skos:topConceptOf asls:land-surface ;
+.
+ls:observable-properties
+  a skos:Collection ;
+  skos:member ls:aggradation ;
+  skos:member ls:aspect ;
+  skos:member ls:biotic-microrelief-agents ;
+  skos:member ls:biotic-microrelief-components ;
+  skos:member ls:coarse-fragments-abundance ;
+  skos:member ls:coarse-fragments-lithology ;
+  skos:member ls:coarse-fragments-shape ;
+  skos:member ls:coarse-fragments-size ;
+  skos:member ls:coarse-fragments-strength ;
+  skos:member ls:depth-free-water ;
+  skos:member ls:disturbance-of-site ;
+  skos:member ls:drainage-height ;
+  skos:member ls:elevation ;
+  skos:member ls:erosion ;
+  skos:member ls:erosion-B ;
+  skos:member ls:erosion-C ;
+  skos:member ls:erosion-G ;
+  skos:member ls:erosion-G-depth ;
+  skos:member ls:erosion-M ;
+  skos:member ls:erosion-R ;
+  skos:member ls:erosion-S ;
+  skos:member ls:erosion-T ;
+  skos:member ls:erosion-V ;
+  skos:member ls:erosion-W ;
+  skos:member ls:erosion-state ;
+  skos:member ls:gilgai-microrelief-proportions ;
+  skos:member ls:inundation-depth ;
+  skos:member ls:inundation-duration ;
+  skos:member ls:inundation-frequency ;
+  skos:member ls:inundation-runon-velocity ;
+  skos:member ls:microrelief ;
+  skos:member ls:microrelief-component-sampled ;
+  skos:member ls:microrelief-horizontal-interval ;
+  skos:member ls:microrelief-vertical-interval ;
+  skos:member ls:other-microrelief-O ;
+  skos:member ls:rock-outcrop-abundance ;
+  skos:member ls:rock-outcrop-lithology ;
+  skos:member ls:runoff ;
+  skos:member subst:lithology ;
+  skos:member subst:material-strength ;
+  skos:prefLabel "Observable properties of land surface" ;
 .
 ls:other-microrelief-O
   a skos:Collection ;
