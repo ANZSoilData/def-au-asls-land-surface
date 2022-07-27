@@ -35,7 +35,7 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-07-26"^^xsd:date ;
+  dcterms:modified "2022-07-27"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -49,176 +49,6 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   skos:changeNote "2022-07-26 - add observable-properties collection" ;
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition andskos:prefLabel" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"^^rdf:HTML ;
-  skos:hasTopConcept ls:aggradation-0 ;
-  skos:hasTopConcept ls:aggradation-1 ;
-  skos:hasTopConcept ls:aggradation-X ;
-  skos:hasTopConcept ls:aspect ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-A ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-B ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-M ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-N ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-O ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-T ;
-  skos:hasTopConcept ls:biotic-microrelief-agent-V ;
-  skos:hasTopConcept ls:biotic-microrelief-component-D ;
-  skos:hasTopConcept ls:biotic-microrelief-component-E ;
-  skos:hasTopConcept ls:biotic-microrelief-component-H ;
-  skos:hasTopConcept ls:biotic-microrelief-component-L ;
-  skos:hasTopConcept ls:biotic-microrelief-component-M ;
-  skos:hasTopConcept ls:biotic-microrelief-component-O ;
-  skos:hasTopConcept ls:biotic-microrelief-component-T ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-0 ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-1 ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-2 ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-3 ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-4 ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-5 ;
-  skos:hasTopConcept ls:coarse-fragments-abundance-6 ;
-  skos:hasTopConcept ls:coarse-fragments-shape-A ;
-  skos:hasTopConcept ls:coarse-fragments-shape-AP ;
-  skos:hasTopConcept ls:coarse-fragments-shape-AT ;
-  skos:hasTopConcept ls:coarse-fragments-shape-R ;
-  skos:hasTopConcept ls:coarse-fragments-shape-RP ;
-  skos:hasTopConcept ls:coarse-fragments-shape-RT ;
-  skos:hasTopConcept ls:coarse-fragments-shape-S ;
-  skos:hasTopConcept ls:coarse-fragments-shape-SP ;
-  skos:hasTopConcept ls:coarse-fragments-shape-ST ;
-  skos:hasTopConcept ls:coarse-fragments-shape-U ;
-  skos:hasTopConcept ls:coarse-fragments-shape-UP ;
-  skos:hasTopConcept ls:coarse-fragments-shape-UT ;
-  skos:hasTopConcept ls:coarse-fragments-size-1 ;
-  skos:hasTopConcept ls:coarse-fragments-size-2 ;
-  skos:hasTopConcept ls:coarse-fragments-size-3 ;
-  skos:hasTopConcept ls:coarse-fragments-size-4 ;
-  skos:hasTopConcept ls:coarse-fragments-size-5 ;
-  skos:hasTopConcept ls:coarse-fragments-size-6 ;
-  skos:hasTopConcept ls:coarse-fragments-size-7 ;
-  skos:hasTopConcept ls:depth-free-water-0 ;
-  skos:hasTopConcept ls:depth-free-water-above ;
-  skos:hasTopConcept ls:depth-free-water-below ;
-  skos:hasTopConcept ls:disturbance-of-site-0 ;
-  skos:hasTopConcept ls:disturbance-of-site-1 ;
-  skos:hasTopConcept ls:disturbance-of-site-2 ;
-  skos:hasTopConcept ls:disturbance-of-site-3 ;
-  skos:hasTopConcept ls:disturbance-of-site-4 ;
-  skos:hasTopConcept ls:disturbance-of-site-5 ;
-  skos:hasTopConcept ls:disturbance-of-site-6 ;
-  skos:hasTopConcept ls:disturbance-of-site-7 ;
-  skos:hasTopConcept ls:disturbance-of-site-8 ;
-  skos:hasTopConcept ls:drainage-height-evaluation-means-A ;
-  skos:hasTopConcept ls:drainage-height-evaluation-means-E ;
-  skos:hasTopConcept ls:drainage-height-evaluation-means-L ;
-  skos:hasTopConcept ls:drainage-height-evaluation-means-M ;
-  skos:hasTopConcept ls:elevation-evaluation-means-A ;
-  skos:hasTopConcept ls:elevation-evaluation-means-E ;
-  skos:hasTopConcept ls:elevation-evaluation-means-L ;
-  skos:hasTopConcept ls:elevation-evaluation-means-M ;
-  skos:hasTopConcept ls:erosion-B-0 ;
-  skos:hasTopConcept ls:erosion-B-1 ;
-  skos:hasTopConcept ls:erosion-B-X ;
-  skos:hasTopConcept ls:erosion-C-0 ;
-  skos:hasTopConcept ls:erosion-C-1 ;
-  skos:hasTopConcept ls:erosion-C-2 ;
-  skos:hasTopConcept ls:erosion-C-3 ;
-  skos:hasTopConcept ls:erosion-G-0 ;
-  skos:hasTopConcept ls:erosion-G-1 ;
-  skos:hasTopConcept ls:erosion-G-2 ;
-  skos:hasTopConcept ls:erosion-G-3 ;
-  skos:hasTopConcept ls:erosion-G-depth-1 ;
-  skos:hasTopConcept ls:erosion-G-depth-2 ;
-  skos:hasTopConcept ls:erosion-G-depth-3 ;
-  skos:hasTopConcept ls:erosion-M-0 ;
-  skos:hasTopConcept ls:erosion-M-1 ;
-  skos:hasTopConcept ls:erosion-R-0 ;
-  skos:hasTopConcept ls:erosion-R-1 ;
-  skos:hasTopConcept ls:erosion-R-2 ;
-  skos:hasTopConcept ls:erosion-R-3 ;
-  skos:hasTopConcept ls:erosion-S-0 ;
-  skos:hasTopConcept ls:erosion-S-1 ;
-  skos:hasTopConcept ls:erosion-S-2 ;
-  skos:hasTopConcept ls:erosion-S-3 ;
-  skos:hasTopConcept ls:erosion-S-X ;
-  skos:hasTopConcept ls:erosion-T-0 ;
-  skos:hasTopConcept ls:erosion-T-1 ;
-  skos:hasTopConcept ls:erosion-T-X ;
-  skos:hasTopConcept ls:erosion-V-0 ;
-  skos:hasTopConcept ls:erosion-V-1 ;
-  skos:hasTopConcept ls:erosion-V-X ;
-  skos:hasTopConcept ls:erosion-W-0 ;
-  skos:hasTopConcept ls:erosion-W-1 ;
-  skos:hasTopConcept ls:erosion-W-2 ;
-  skos:hasTopConcept ls:erosion-W-3 ;
-  skos:hasTopConcept ls:erosion-W-4 ;
-  skos:hasTopConcept ls:erosion-W-X ;
-  skos:hasTopConcept ls:erosion-state-A ;
-  skos:hasTopConcept ls:erosion-state-P ;
-  skos:hasTopConcept ls:erosion-state-S ;
-  skos:hasTopConcept ls:gilgai-microrelief-proportions-A ;
-  skos:hasTopConcept ls:gilgai-microrelief-proportions-B ;
-  skos:hasTopConcept ls:gilgai-microrelief-proportions-C ;
-  skos:hasTopConcept ls:gilgai-microrelief-proportions-D ;
-  skos:hasTopConcept ls:inundation-depth-1 ;
-  skos:hasTopConcept ls:inundation-depth-2 ;
-  skos:hasTopConcept ls:inundation-depth-3 ;
-  skos:hasTopConcept ls:inundation-depth-4 ;
-  skos:hasTopConcept ls:inundation-depth-5 ;
-  skos:hasTopConcept ls:inundation-duration-1 ;
-  skos:hasTopConcept ls:inundation-duration-2 ;
-  skos:hasTopConcept ls:inundation-duration-3 ;
-  skos:hasTopConcept ls:inundation-duration-4 ;
-  skos:hasTopConcept ls:inundation-frequency-0 ;
-  skos:hasTopConcept ls:inundation-frequency-1 ;
-  skos:hasTopConcept ls:inundation-frequency-2 ;
-  skos:hasTopConcept ls:inundation-frequency-3 ;
-  skos:hasTopConcept ls:inundation-frequency-4 ;
-  skos:hasTopConcept ls:inundation-frequency-5 ;
-  skos:hasTopConcept ls:inundation-runon-velocity-H ;
-  skos:hasTopConcept ls:inundation-runon-velocity-L ;
-  skos:hasTopConcept ls:lithology-CC ;
-  skos:hasTopConcept ls:lithology-IS ;
-  skos:hasTopConcept ls:lithology-OT ;
-  skos:hasTopConcept ls:lithology-OW ;
-  skos:hasTopConcept ls:lithology-PU ;
-  skos:hasTopConcept ls:lithology-SS ;
-  skos:hasTopConcept ls:microrelief-A ;
-  skos:hasTopConcept ls:microrelief-C ;
-  skos:hasTopConcept ls:microrelief-D ;
-  skos:hasTopConcept ls:microrelief-G ;
-  skos:hasTopConcept ls:microrelief-H ;
-  skos:hasTopConcept ls:microrelief-I ;
-  skos:hasTopConcept ls:microrelief-K ;
-  skos:hasTopConcept ls:microrelief-L ;
-  skos:hasTopConcept ls:microrelief-M ;
-  skos:hasTopConcept ls:microrelief-N ;
-  skos:hasTopConcept ls:microrelief-P ;
-  skos:hasTopConcept ls:microrelief-R ;
-  skos:hasTopConcept ls:microrelief-S ;
-  skos:hasTopConcept ls:microrelief-T ;
-  skos:hasTopConcept ls:microrelief-U ;
-  skos:hasTopConcept ls:microrelief-W ;
-  skos:hasTopConcept ls:microrelief-Z ;
-  skos:hasTopConcept ls:microrelief-component-D ;
-  skos:hasTopConcept ls:microrelief-component-E ;
-  skos:hasTopConcept ls:microrelief-component-F ;
-  skos:hasTopConcept ls:microrelief-component-K ;
-  skos:hasTopConcept ls:microrelief-component-L ;
-  skos:hasTopConcept ls:microrelief-component-M ;
-  skos:hasTopConcept ls:microrelief-component-S ;
-  skos:hasTopConcept ls:microrelief-horizontal-interval ;
-  skos:hasTopConcept ls:microrelief-vertical-interval ;
-  skos:hasTopConcept ls:other-microrelief-O ;
-  skos:hasTopConcept ls:rock-outcrop-abundance-0 ;
-  skos:hasTopConcept ls:rock-outcrop-abundance-1 ;
-  skos:hasTopConcept ls:rock-outcrop-abundance-2 ;
-  skos:hasTopConcept ls:rock-outcrop-abundance-3 ;
-  skos:hasTopConcept ls:rock-outcrop-abundance-4 ;
-  skos:hasTopConcept ls:rock-outcrop-abundance-5 ;
-  skos:hasTopConcept ls:runoff-0 ;
-  skos:hasTopConcept ls:runoff-1 ;
-  skos:hasTopConcept ls:runoff-2 ;
-  skos:hasTopConcept ls:runoff-3 ;
-  skos:hasTopConcept ls:runoff-4 ;
-  skos:hasTopConcept ls:runoff-5 ;
   skos:prefLabel "Land Surface classifiers"@en ;
 .
 ls:aggradation
@@ -229,7 +59,7 @@ ls:aggradation
   skos:member ls:aggradation-0 ;
   skos:member ls:aggradation-1 ;
   skos:member ls:aggradation-X ;
-  skos:prefLabel "Aggradation"@en ;
+  skos:prefLabel "Aggradation - enumeration"@en ;
 .
 ls:aggradation-0
   a skos:Concept ;
@@ -350,7 +180,7 @@ ls:biotic-microrelief-agents
   skos:member ls:biotic-microrelief-agent-O ;
   skos:member ls:biotic-microrelief-agent-T ;
   skos:member ls:biotic-microrelief-agent-V ;
-  skos:prefLabel "Biotic microrelief agents"@en ;
+  skos:prefLabel "Biotic microrelief agents - enumeration"@en ;
 .
 ls:biotic-microrelief-component-D
   a skos:Concept ;
@@ -427,7 +257,7 @@ ls:biotic-microrelief-components
   skos:member ls:biotic-microrelief-component-M ;
   skos:member ls:biotic-microrelief-component-O ;
   skos:member ls:biotic-microrelief-component-T ;
-  skos:prefLabel "Component of biotic relief"@en ;
+  skos:prefLabel "Component of biotic relief - enumeration"@en ;
 .
 ls:coarse-fragments
   a skos:Collection ;
@@ -454,7 +284,7 @@ ls:coarse-fragments-abundance
   skos:member ls:coarse-fragments-abundance-4 ;
   skos:member ls:coarse-fragments-abundance-5 ;
   skos:member ls:coarse-fragments-abundance-6 ;
-  skos:prefLabel "Abundance of coarse fragments"@en ;
+  skos:prefLabel "Abundance of coarse fragments - enumeration"@en ;
 .
 ls:coarse-fragments-abundance-0
   a skos:Concept ;
@@ -621,7 +451,7 @@ ls:coarse-fragments-lithology
   skos:member subst:lithology-VG ;
   skos:member subst:lithology-Z ;
   skos:member subst:lithology-ZS ;
-  skos:prefLabel "Lithology of coarse fragments"@en ;
+  skos:prefLabel "Lithology of coarse fragments - enumeration"@en ;
 .
 ls:coarse-fragments-shape
   a skos:Collection ;
@@ -641,7 +471,7 @@ ls:coarse-fragments-shape
   skos:member ls:coarse-fragments-shape-U ;
   skos:member ls:coarse-fragments-shape-UP ;
   skos:member ls:coarse-fragments-shape-UT ;
-  skos:prefLabel "Shape of coarse fragments"@en ;
+  skos:prefLabel "Shape of coarse fragments - enumeration"@en ;
 .
 ls:coarse-fragments-shape-A
   a skos:Concept ;
@@ -777,7 +607,7 @@ ls:coarse-fragments-size
   skos:member ls:coarse-fragments-size-6 ;
   skos:member ls:coarse-fragments-size-7 ;
   skos:note "Note that in preparing soils for laboratory analysis, the greater than 2mm size fraction is commonly recorded as 'gravel'."@en ;
-  skos:prefLabel "Size of coarse fragments"@en ;
+  skos:prefLabel "Size of coarse fragments -enumeration"@en ;
 .
 ls:coarse-fragments-size-1
   a skos:Concept ;
@@ -862,7 +692,7 @@ ls:coarse-fragments-strength
   skos:member subst:material-strength-VS ;
   skos:member subst:material-strength-VW ;
   skos:member subst:material-strength-W ;
-  skos:prefLabel "Strength of coarse fragments"@en ;
+  skos:prefLabel "Strength of coarse fragments - enumeration"@en ;
 .
 ls:depth-free-water
   a skos:Collection ;
@@ -872,7 +702,7 @@ ls:depth-free-water
   skos:member ls:depth-free-water-0 ;
   skos:member ls:depth-free-water-above ;
   skos:member ls:depth-free-water-below ;
-  skos:prefLabel "Depth to free water"@en ;
+  skos:prefLabel "Depth to free water - enumeration"@en ;
 .
 ls:depth-free-water-0
   a skos:Concept ;
@@ -915,7 +745,7 @@ ls:disturbance-of-site
   skos:member ls:disturbance-of-site-6 ;
   skos:member ls:disturbance-of-site-7 ;
   skos:member ls:disturbance-of-site-8 ;
-  skos:prefLabel "Disturbance of site"@en ;
+  skos:prefLabel "Disturbance of site - enumeration"@en ;
 .
 ls:disturbance-of-site-0
   a skos:Concept ;
@@ -1004,57 +834,47 @@ ls:drainage-height
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height"^^xsd:anyURI ;
   skos:definition "This is the height of the point of soil observation above the flat, depression or stream channel that forms the effective bottom of the toposequence. Give drainage height in metres."@en ;
   skos:member ls:drainage-height-evaluation-means ;
+  skos:member ls:drainage-height-value ;
   skos:prefLabel "Drainage height"@en ;
 .
 ls:drainage-height-evaluation-means
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means"^^xsd:anyURI ;
   skos:definition "Means of evaluation of drainage height."@en ;
-  skos:member ls:drainage-height-evaluation-means-A ;
-  skos:member ls:drainage-height-evaluation-means-E ;
-  skos:member ls:drainage-height-evaluation-means-L ;
-  skos:member ls:drainage-height-evaluation-means-M ;
-  skos:prefLabel "Means of evaluation of drainage height"@en ;
+  skos:member ls:elevation-evaluation-means-A ;
+  skos:member ls:elevation-evaluation-means-E ;
+  skos:member ls:elevation-evaluation-means-L ;
+  skos:member ls:elevation-evaluation-means-M ;
+  skos:prefLabel "Means of evaluation of drainage height - enumeration"@en ;
 .
 ls:drainage-height-evaluation-means-A
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-A"^^xsd:anyURI ;
-  skos:definition "Determined by altimeter"@en ;
-  skos:exactMatch ls:elevation-evaluation-means-A ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "A" ;
   skos:prefLabel "Determined by altimeter (drainage height)"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:drainage-height-evaluation-means-E
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-E"^^xsd:anyURI ;
-  skos:definition "Estimate"@en ;
-  skos:exactMatch ls:elevation-evaluation-means-E ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "E" ;
   skos:prefLabel "Estimate (drainage height)"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:drainage-height-evaluation-means-L
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-L"^^xsd:anyURI ;
-  skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
-  skos:exactMatch ls:elevation-evaluation-means-L ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "L" ;
   skos:prefLabel "Levelled from survey datum or estimated from contour plan (drainage height)"@en ;
-  skos:topConceptOf asls:land-surface ;
 .
 ls:drainage-height-evaluation-means-M
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-M"^^xsd:anyURI ;
-  skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
-  skos:exactMatch ls:elevation-evaluation-means-M ;
-  skos:inScheme asls:land-surface ;
-  skos:notation "M" ;
   skos:prefLabel "Interpolated from contour map (drainage height)"@en ;
-  skos:topConceptOf asls:land-surface ;
+.
+ls:drainage-height-value
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-value"^^xsd:anyURI ;
+  skos:prefLabel "Drainage height value in metres" ;
 .
 ls:elevation
   a skos:Collection ;
@@ -1062,6 +882,7 @@ ls:elevation
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation"^^xsd:anyURI ;
   skos:definition "Give in metres above sea-level."@en ;
   skos:member ls:elevation-evaluation-means ;
+  skos:member ls:elevation-value ;
   skos:prefLabel "Elevation in metres above sea-level"@en ;
 .
 ls:elevation-evaluation-means
@@ -1072,13 +893,13 @@ ls:elevation-evaluation-means
   skos:member ls:elevation-evaluation-means-E ;
   skos:member ls:elevation-evaluation-means-L ;
   skos:member ls:elevation-evaluation-means-M ;
-  skos:prefLabel "Means of evaluation of elevation"@en ;
+  skos:prefLabel "Means of evaluation of elevation - enumeration"@en ;
 .
 ls:elevation-evaluation-means-A
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-A"^^xsd:anyURI ;
   skos:definition "Determined by altimeter"@en ;
-  skos:exactMatch ls:drainage-height-evaluation-means-A ;
   skos:inScheme asls:land-surface ;
   skos:notation "A" ;
   skos:prefLabel "Determined by altimeter"@en ;
@@ -1086,9 +907,9 @@ ls:elevation-evaluation-means-A
 .
 ls:elevation-evaluation-means-E
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-E"^^xsd:anyURI ;
   skos:definition "Estimate"@en ;
-  skos:exactMatch ls:drainage-height-evaluation-means-E ;
   skos:inScheme asls:land-surface ;
   skos:notation "E" ;
   skos:prefLabel "Estimate"@en ;
@@ -1096,9 +917,9 @@ ls:elevation-evaluation-means-E
 .
 ls:elevation-evaluation-means-L
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-L"^^xsd:anyURI ;
   skos:definition "Levelled from survey datum or estimated from contour plan (1:10 000 or larger scale)"@en ;
-  skos:exactMatch ls:drainage-height-evaluation-means-L ;
   skos:inScheme asls:land-surface ;
   skos:notation "L" ;
   skos:prefLabel "Levelled from survey datum or estimated from contour plan"@en ;
@@ -1106,44 +927,31 @@ ls:elevation-evaluation-means-L
 .
 ls:elevation-evaluation-means-M
   a skos:Concept ;
+  a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-M"^^xsd:anyURI ;
   skos:definition "Interpolated from contour map with contour interval of 20 m or less"@en ;
-  skos:exactMatch ls:drainage-height-evaluation-means-M ;
   skos:inScheme asls:land-surface ;
   skos:notation "M" ;
   skos:prefLabel "Interpolated from contour map"@en ;
   skos:topConceptOf asls:land-surface ;
 .
+ls:elevation-value
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-value"^^xsd:anyURI ;
+  skos:prefLabel "Elevation value in metres" ;
+.
 ls:erosion
   a skos:Collection ;
-  a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion"^^xsd:anyURI ;
   rdfs:comment "For erosion, aggradation and inundation assessment, the extent of the site is 20 m radius."@en ;
   skos:definition """This section is concerned with accelerated erosion rather than natural erosion. Natural or geologic erosion is the type and rate of movement of land surface material in its undisturbed natural environment. Accelerated erosion is the more rapid erosion that follows the destruction or loss of protective cover often resulting from people’s influence on the soil, vegetation or landform. It is not always easy to distinguish between accelerated and natural erosion in some landscapes where both are closely interrelated, nor is it always clear whether wind or water is the dominant agent. This is particularly so in the case of scald formation (Warren 1965).
 The complexity of erosion forms creates difficulties in both defining and quantitatively estimating the extent of erosion within the dimensions of the site. Hence, the observer is advised to record the following simple parameters. Assess the erosion observed at the time of the description, not the likelihood of erosion."""@en ;
-  skos:member ls:erosion-B ;
-  skos:member ls:erosion-C ;
-  skos:member ls:erosion-G ;
-  skos:member ls:erosion-M ;
-  skos:member ls:erosion-R ;
-  skos:member ls:erosion-S ;
-  skos:member ls:erosion-T ;
-  skos:member ls:erosion-V ;
-  skos:member ls:erosion-W ;
+  skos:member ls:erosion-mass-movement ;
+  skos:member ls:erosion-scald ;
   skos:member ls:erosion-state ;
-  skos:member ls:water-erosion ;
+  skos:member ls:erosion-water ;
+  skos:member ls:erosion-wind ;
   skos:prefLabel "Erosion"@en ;
-.
-ls:erosion-B
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-B"^^xsd:anyURI ;
-  skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
-  skos:member ls:erosion-B-0 ;
-  skos:member ls:erosion-B-1 ;
-  skos:member ls:erosion-B-X ;
-  skos:notation "B" ;
-  skos:prefLabel "Stream bank erosion"@en ;
 .
 ls:erosion-B-0
   a skos:Concept ;
@@ -1171,18 +979,6 @@ ls:erosion-B-X
   skos:notation "X" ;
   skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-C
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-C"^^xsd:anyURI ;
-  skos:definition "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
-  skos:member ls:erosion-C-0 ;
-  skos:member ls:erosion-C-1 ;
-  skos:member ls:erosion-C-2 ;
-  skos:member ls:erosion-C-3 ;
-  skos:notation "C" ;
-  skos:prefLabel "Scald erosion"@en ;
 .
 ls:erosion-C-0
   a skos:Concept ;
@@ -1220,19 +1016,6 @@ ls:erosion-C-3
   skos:prefLabel "Severe scalding"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-G
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G"^^xsd:anyURI ;
-  skos:definition "A gully is a channel more than 0.3 m deep."@en ;
-  skos:member ls:erosion-G-0 ;
-  skos:member ls:erosion-G-1 ;
-  skos:member ls:erosion-G-2 ;
-  skos:member ls:erosion-G-3 ;
-  skos:member ls:erosion-G-depth ;
-  skos:notation "G" ;
-  skos:prefLabel "Gully erosion"@en ;
-.
 ls:erosion-G-0
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-0"^^xsd:anyURI ;
@@ -1269,16 +1052,6 @@ ls:erosion-G-3
   skos:prefLabel "Severe gully erosion"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-G-depth
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth"^^xsd:anyURI ;
-  skos:definition "This gives the maximum depth within the site."@en ;
-  skos:member ls:erosion-G-depth-1 ;
-  skos:member ls:erosion-G-depth-2 ;
-  skos:member ls:erosion-G-depth-3 ;
-  skos:prefLabel "Gully depth"@en ;
-.
 ls:erosion-G-depth-1
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-G-depth-1"^^xsd:anyURI ;
@@ -1306,16 +1079,6 @@ ls:erosion-G-depth-3
   skos:prefLabel "Gully depth >3 m"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-M
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-M"^^xsd:anyURI ;
-  skos:definition "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
-  skos:member ls:erosion-M-0 ;
-  skos:member ls:erosion-M-1 ;
-  skos:notation "M" ;
-  skos:prefLabel "Mass movement"@en ;
-.
 ls:erosion-M-0
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-M-0"^^xsd:anyURI ;
@@ -1333,18 +1096,6 @@ ls:erosion-M-1
   skos:notation "1" ;
   skos:prefLabel "Present"@en ;
   skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-R
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-R"^^xsd:anyURI ;
-  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
-  skos:member ls:erosion-R-0 ;
-  skos:member ls:erosion-R-1 ;
-  skos:member ls:erosion-R-2 ;
-  skos:member ls:erosion-R-3 ;
-  skos:notation "R" ;
-  skos:prefLabel "Rill erosion"@en ;
 .
 ls:erosion-R-0
   a skos:Concept ;
@@ -1381,19 +1132,6 @@ ls:erosion-R-3
   skos:notation "3" ;
   skos:prefLabel "Severe"@en ;
   skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-S
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-S"^^xsd:anyURI ;
-  skos:definition "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
-  skos:member ls:erosion-S-0 ;
-  skos:member ls:erosion-S-1 ;
-  skos:member ls:erosion-S-2 ;
-  skos:member ls:erosion-S-3 ;
-  skos:member ls:erosion-S-X ;
-  skos:notation "S" ;
-  skos:prefLabel "Sheet erosion"@en ;
 .
 ls:erosion-S-0
   a skos:Concept ;
@@ -1440,17 +1178,6 @@ ls:erosion-S-X
   skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-T
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-T"^^xsd:anyURI ;
-  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
-  skos:member ls:erosion-T-0 ;
-  skos:member ls:erosion-T-1 ;
-  skos:member ls:erosion-T-X ;
-  skos:notation "T" ;
-  skos:prefLabel "Tunnel erosion"@en ;
-.
 ls:erosion-T-0
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-T-0"^^xsd:anyURI ;
@@ -1478,17 +1205,6 @@ ls:erosion-T-X
   skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:erosion-V
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-V"^^xsd:anyURI ;
-  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
-  skos:member ls:erosion-V-0 ;
-  skos:member ls:erosion-V-1 ;
-  skos:member ls:erosion-V-X ;
-  skos:notation "V" ;
-  skos:prefLabel "Wave erosion"@en ;
-.
 ls:erosion-V-0
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-V-0"^^xsd:anyURI ;
@@ -1515,20 +1231,6 @@ ls:erosion-V-X
   skos:notation "X" ;
   skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
-.
-ls:erosion-W
-  a skos:Collection ;
-  a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-W"^^xsd:anyURI ;
-  skos:definition "Give presence/absence or extent of accelerated erosion."@en ;
-  skos:member ls:erosion-W-0 ;
-  skos:member ls:erosion-W-1 ;
-  skos:member ls:erosion-W-2 ;
-  skos:member ls:erosion-W-3 ;
-  skos:member ls:erosion-W-4 ;
-  skos:member ls:erosion-W-X ;
-  skos:notation "W" ;
-  skos:prefLabel "Wind erosion"@en ;
 .
 ls:erosion-W-0
   a skos:Concept ;
@@ -1584,6 +1286,75 @@ ls:erosion-W-X
   skos:prefLabel "Not apparent"@en ;
   skos:topConceptOf asls:land-surface ;
 .
+ls:erosion-gully
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-gully"^^xsd:anyURI ;
+  skos:definition "A gully is a channel more than 0.3 m deep."@en ;
+  skos:member ls:erosion-G-0 ;
+  skos:member ls:erosion-G-1 ;
+  skos:member ls:erosion-G-2 ;
+  skos:member ls:erosion-G-3 ;
+  skos:notation "G" ;
+  skos:prefLabel "Gully erosion - enumeration"@en ;
+.
+ls:erosion-gully-depth
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-gully-depth"^^xsd:anyURI ;
+  skos:definition "This gives the maximum depth within the site."@en ;
+  skos:member ls:erosion-G-depth-1 ;
+  skos:member ls:erosion-G-depth-2 ;
+  skos:member ls:erosion-G-depth-3 ;
+  skos:prefLabel "Gully depth - enumeration"@en ;
+.
+ls:erosion-mass-movement
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-mass-movement"^^xsd:anyURI ;
+  skos:definition "This includes all relatively large downslope movement of soil, rock or mixture of both, for example landslides, slumps, earth flows, debris avalanches and solifluxion."@en ;
+  skos:member ls:erosion-M-0 ;
+  skos:member ls:erosion-M-1 ;
+  skos:notation "M" ;
+  skos:prefLabel "Mass movement - enumeration"@en ;
+.
+ls:erosion-rill
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-rill"^^xsd:anyURI ;
+  skos:definition "A rill is a small channel up to 0.3 m deep, which can be largely obliterated by tillage operations (Houghton and Charman 1986)."@en ;
+  skos:member ls:erosion-R-0 ;
+  skos:member ls:erosion-R-1 ;
+  skos:member ls:erosion-R-2 ;
+  skos:member ls:erosion-R-3 ;
+  skos:notation "R" ;
+  skos:prefLabel "Rill erosion - enumeration"@en ;
+.
+ls:erosion-scald
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-scald"^^xsd:anyURI ;
+  skos:definition "This is the removal of surface soil by water and/or wind, often exposing a more clayey subsoil which is devoid of vegetation and relatively impermeable to water. Scalds are most common in arid or semi-arid lands."@en ;
+  skos:member ls:erosion-C-0 ;
+  skos:member ls:erosion-C-1 ;
+  skos:member ls:erosion-C-2 ;
+  skos:member ls:erosion-C-3 ;
+  skos:notation "C" ;
+  skos:prefLabel "Scald erosion - enumeration"@en ;
+.
+ls:erosion-sheet
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-sheet"^^xsd:anyURI ;
+  skos:definition "This is the relatively uniform removal of soil from an area without the development of conspicuous channels. Indicators of sheet erosion include soil deposits in downslope sediment traps, such as fencelines or farm dams, and pedestalling, root exposure or exposure of subsoils."@en ;
+  skos:member ls:erosion-S-0 ;
+  skos:member ls:erosion-S-1 ;
+  skos:member ls:erosion-S-2 ;
+  skos:member ls:erosion-S-3 ;
+  skos:member ls:erosion-S-X ;
+  skos:notation "S" ;
+  skos:prefLabel "Sheet erosion - enumeration"@en ;
+.
 ls:erosion-state
   a skos:Collection ;
   a sosa:ObservableProperty ;
@@ -1592,7 +1363,7 @@ ls:erosion-state
   skos:member ls:erosion-state-A ;
   skos:member ls:erosion-state-P ;
   skos:member ls:erosion-state-S ;
-  skos:prefLabel "State of erosion"@en ;
+  skos:prefLabel "State of erosion - enumeration"@en ;
 .
 ls:erosion-state-A
   a skos:Concept ;
@@ -1621,18 +1392,67 @@ ls:erosion-state-S
   skos:prefLabel "Stabilised"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:gilgai-microrelief
+ls:erosion-stream-bank
   a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief"^^xsd:anyURI ;
-  skos:definition "Gilgai is surface microrelief associated with soils containing shrink–swell clays. It does not include microrelief that apparently results from repeated freezing and thawing, solifluxion or faunal activity. Gilgai consist of mounds and depressions showing varying degrees of order, sometimes separated by a subplanar or slightly undulating surface."@en ;
-  skos:member ls:gilgai-microrelief-proportions ;
-  skos:member ls:microrelief-A ;
-  skos:member ls:microrelief-C ;
-  skos:member ls:microrelief-G ;
-  skos:member ls:microrelief-L ;
-  skos:member ls:microrelief-M ;
-  skos:member ls:microrelief-N ;
-  skos:prefLabel "Gilgai microrelief"@en ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-stream-bank"^^xsd:anyURI ;
+  skos:definition "This is the removal of soil from a stream bank, typically during periods of high stream flow."@en ;
+  skos:member ls:erosion-B-0 ;
+  skos:member ls:erosion-B-1 ;
+  skos:member ls:erosion-B-X ;
+  skos:notation "B" ;
+  skos:prefLabel "Stream bank erosion - enumeration"@en ;
+.
+ls:erosion-tunnel
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-tunnel"^^xsd:anyURI ;
+  skos:definition "This is the removal of subsoil by water while the surface soil remains relatively intact (Crouch 1976)."@en ;
+  skos:member ls:erosion-T-0 ;
+  skos:member ls:erosion-T-1 ;
+  skos:member ls:erosion-T-X ;
+  skos:notation "T" ;
+  skos:prefLabel "Tunnel erosion - enumeration"@en ;
+.
+ls:erosion-water
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-water"^^xsd:anyURI ;
+  skos:definition """Give type and presence/absence or extent of accelerated erosion.
+For sheet, rill and gully erosion there is no consensus in Australia on a quantitative or precise definition of what constitutes minor, moderate and severe erosion. This derives partly from the difficulty of measuring actual soil loss at a site. It also derives partly from the wide range of soils, climates and land uses, variations in any or all of which may alter the concept of minor, moderate or severe erosion.
+The observer wishing to record the severity of erosion may record it as minor, moderate or severe, basing the assessment on local knowledge and guided by indicators that may be present as described below (after Morse et al. 1987). Note the actual depth of soil loss where this can be reliably assessed."""@en ;
+  skos:member ls:erosion-gully ;
+  skos:member ls:erosion-gully-depth ;
+  skos:member ls:erosion-rill ;
+  skos:member ls:erosion-sheet ;
+  skos:member ls:erosion-stream-bank ;
+  skos:member ls:erosion-tunnel ;
+  skos:member ls:erosion-wave ;
+  skos:prefLabel "Water erosion"@en ;
+.
+ls:erosion-wave
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-wave"^^xsd:anyURI ;
+  skos:definition "Erosion of beaches, beach ridges and/or dunes. This is the removal of sand or soil from the margins of beaches, beach ridges, dunes, lakes or dams by wave action."@en ;
+  skos:member ls:erosion-V-0 ;
+  skos:member ls:erosion-V-1 ;
+  skos:member ls:erosion-V-X ;
+  skos:notation "V" ;
+  skos:prefLabel "Wave erosion - enumeration"@en ;
+.
+ls:erosion-wind
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/erosion-wind"^^xsd:anyURI ;
+  skos:definition "Give presence/absence or extent of accelerated erosion."@en ;
+  skos:member ls:erosion-W-0 ;
+  skos:member ls:erosion-W-1 ;
+  skos:member ls:erosion-W-2 ;
+  skos:member ls:erosion-W-3 ;
+  skos:member ls:erosion-W-4 ;
+  skos:member ls:erosion-W-X ;
+  skos:notation "W" ;
+  skos:prefLabel "Wind erosion - enumeration"@en ;
 .
 ls:gilgai-microrelief-proportions
   a skos:Collection ;
@@ -1643,7 +1463,7 @@ ls:gilgai-microrelief-proportions
   skos:member ls:gilgai-microrelief-proportions-B ;
   skos:member ls:gilgai-microrelief-proportions-C ;
   skos:member ls:gilgai-microrelief-proportions-D ;
-  skos:prefLabel "Proportions of gilgai components "@en ;
+  skos:prefLabel "Proportions of gilgai components - enumeration"@en ;
 .
 ls:gilgai-microrelief-proportions-A
   a skos:Concept ;
@@ -1681,13 +1501,27 @@ ls:gilgai-microrelief-proportions-D
   skos:prefLabel "Mound, shelf and depressions; shelf forms prominent part of gilgai"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:hummocky-microrelief
+ls:gilgai-microrelief-type
   a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/hummocky-microrelief"^^xsd:anyURI ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/gilgai-microrelief-type"^^xsd:anyURI ;
+  skos:definition "Gilgai is surface microrelief associated with soils containing shrink–swell clays. It does not include microrelief that apparently results from repeated freezing and thawing, solifluxion or faunal activity. Gilgai consist of mounds and depressions showing varying degrees of order, sometimes separated by a subplanar or slightly undulating surface."@en ;
+  skos:member ls:microrelief-A ;
+  skos:member ls:microrelief-C ;
+  skos:member ls:microrelief-G ;
+  skos:member ls:microrelief-L ;
+  skos:member ls:microrelief-M ;
+  skos:member ls:microrelief-N ;
+  skos:prefLabel "Type of gilgai microrelief - enumeration"@en ;
+.
+ls:hummocky-microrelief-type
+  a skos:Collection ;
+  a sosa:ObservableProperty ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/hummocky-microrelief-type"^^xsd:anyURI ;
   skos:definition "Hummocky microrelief is not thought to be associated with the shrink–swell process involved in gilgai microrelief."@en ;
   skos:member ls:microrelief-D ;
   skos:member ls:microrelief-W ;
-  skos:prefLabel "Hummocky microrelief"@en ;
+  skos:prefLabel "Type of hummocky microrelief - enumeration"@en ;
 .
 ls:inundation
   a skos:Collection ;
@@ -1709,7 +1543,7 @@ ls:inundation-depth
   skos:member ls:inundation-depth-3 ;
   skos:member ls:inundation-depth-4 ;
   skos:member ls:inundation-depth-5 ;
-  skos:prefLabel "Depth of inundation (annual)"@en ;
+  skos:prefLabel "Depth of inundation (annual) - enumeration"@en ;
 .
 ls:inundation-depth-1
   a skos:Concept ;
@@ -1765,7 +1599,7 @@ ls:inundation-duration
   skos:member ls:inundation-duration-2 ;
   skos:member ls:inundation-duration-3 ;
   skos:member ls:inundation-duration-4 ;
-  skos:prefLabel "Duration (annual) of inundation"@en ;
+  skos:prefLabel "Duration (annual) of inundation - enumeration"@en ;
 .
 ls:inundation-duration-1
   a skos:Concept ;
@@ -1814,7 +1648,7 @@ ls:inundation-frequency
   skos:member ls:inundation-frequency-3 ;
   skos:member ls:inundation-frequency-4 ;
   skos:member ls:inundation-frequency-5 ;
-  skos:prefLabel "Frequency of inundation"@en ;
+  skos:prefLabel "Frequency of inundation - enumeration"@en ;
 .
 ls:inundation-frequency-0
   a skos:Concept ;
@@ -1877,7 +1711,7 @@ ls:inundation-runon-velocity
   skos:definition "As a guide, the surface velocity in a river is typically 1–2 m/s. "@en ;
   skos:member ls:inundation-runon-velocity-H ;
   skos:member ls:inundation-runon-velocity-L ;
-  skos:prefLabel "Runon velocity of inundation"@en ;
+  skos:prefLabel "Runon velocity of inundation - enumeration"@en ;
 .
 ls:inundation-runon-velocity-H
   a skos:Concept ;
@@ -1959,17 +1793,16 @@ ls:lithology-SS
 .
 ls:microrelief
   a skos:Collection ;
-  a sosa:ObservableProperty ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief"^^xsd:anyURI ;
   skos:definition "Microrelief refers to relief up to a few metres about the plane of the land surface. It includes gilgai, hummocky, biotic and other microrelief."@en ;
   skos:member ls:biotic-microrelief ;
-  skos:member ls:gilgai-microrelief ;
-  skos:member ls:hummocky-microrelief ;
+  skos:member ls:gilgai-microrelief-type ;
+  skos:member ls:hummocky-microrelief-type ;
   skos:member ls:microrelief-Z ;
   skos:member ls:microrelief-component-sampled ;
   skos:member ls:microrelief-horizontal-interval ;
   skos:member ls:microrelief-vertical-interval ;
-  skos:member ls:other-microrelief-O ;
+  skos:member ls:other-microrelief-type ;
   skos:prefLabel "Microrelief"@en ;
 .
 ls:microrelief-A
@@ -2064,6 +1897,13 @@ ls:microrelief-N
   skos:notation "N" ;
   skos:prefLabel "Normal gilgai"@en ;
   skos:topConceptOf asls:land-surface ;
+.
+ls:microrelief-O
+  a skos:Concept ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-O"^^xsd:anyURI ;
+  skos:inScheme asls:land-surface ;
+  skos:notation "O" ;
+  skos:prefLabel "Other microrelief"@en ;
 .
 ls:microrelief-P
   a skos:Concept ;
@@ -2203,7 +2043,7 @@ ls:microrelief-component-sampled
   skos:member ls:microrelief-component-L ;
   skos:member ls:microrelief-component-M ;
   skos:member ls:microrelief-component-S ;
-  skos:prefLabel "Component of microrelief sampled"@en ;
+  skos:prefLabel "Component of microrelief sampled - enumeration"@en ;
 .
 ls:microrelief-horizontal-interval
   a skos:Concept ;
@@ -2239,17 +2079,17 @@ ls:observable-properties
   skos:member ls:drainage-height ;
   skos:member ls:elevation ;
   skos:member ls:erosion ;
-  skos:member ls:erosion-B ;
-  skos:member ls:erosion-C ;
-  skos:member ls:erosion-G ;
-  skos:member ls:erosion-G-depth ;
-  skos:member ls:erosion-M ;
-  skos:member ls:erosion-R ;
-  skos:member ls:erosion-S ;
-  skos:member ls:erosion-T ;
-  skos:member ls:erosion-V ;
-  skos:member ls:erosion-W ;
+  skos:member ls:erosion-gully ;
+  skos:member ls:erosion-gully-depth ;
+  skos:member ls:erosion-mass-movement ;
+  skos:member ls:erosion-rill ;
+  skos:member ls:erosion-scald ;
+  skos:member ls:erosion-sheet ;
   skos:member ls:erosion-state ;
+  skos:member ls:erosion-stream-bank ;
+  skos:member ls:erosion-tunnel ;
+  skos:member ls:erosion-wave ;
+  skos:member ls:erosion-wind ;
   skos:member ls:gilgai-microrelief-proportions ;
   skos:member ls:inundation-depth ;
   skos:member ls:inundation-duration ;
@@ -2259,7 +2099,7 @@ ls:observable-properties
   skos:member ls:microrelief-component-sampled ;
   skos:member ls:microrelief-horizontal-interval ;
   skos:member ls:microrelief-vertical-interval ;
-  skos:member ls:other-microrelief-O ;
+  skos:member ls:other-microrelief-type ;
   skos:member ls:rock-outcrop-abundance ;
   skos:member ls:rock-outcrop-lithology ;
   skos:member ls:runoff ;
@@ -2267,22 +2107,22 @@ ls:observable-properties
   skos:member subst:material-strength ;
   skos:prefLabel "Observable properties of land surface" ;
 .
-ls:other-microrelief-O
+ls:other-microrelief-type
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/microrelief-O"^^xsd:anyURI ;
-  skos:definition "Other microrelief."@en ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/other-microrelief-type"^^xsd:anyURI ;
+  skos:definition "Type of other microrelief - enumeration"@en ;
   skos:inScheme asls:land-surface ;
   skos:member ls:microrelief-H ;
   skos:member ls:microrelief-I ;
   skos:member ls:microrelief-K ;
+  skos:member ls:microrelief-O ;
   skos:member ls:microrelief-P ;
   skos:member ls:microrelief-R ;
   skos:member ls:microrelief-S ;
   skos:member ls:microrelief-T ;
   skos:member ls:microrelief-U ;
-  skos:notation "O" ;
-  skos:prefLabel "Other microrelief"@en ;
+  skos:prefLabel "Type of other microrelief - enumeration"@en ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:rock-outcrop
@@ -2304,7 +2144,7 @@ ls:rock-outcrop-abundance
   skos:member ls:rock-outcrop-abundance-3 ;
   skos:member ls:rock-outcrop-abundance-4 ;
   skos:member ls:rock-outcrop-abundance-5 ;
-  skos:prefLabel "Abundance of rock outcrop"@en ;
+  skos:prefLabel "Abundance of rock outcrop - enumeration"@en ;
 .
 ls:rock-outcrop-abundance-0
   a skos:Concept ;
@@ -2448,7 +2288,7 @@ ls:rock-outcrop-lithology
   skos:member subst:lithology-VG ;
   skos:member subst:lithology-Z ;
   skos:member subst:lithology-ZS ;
-  skos:prefLabel "Lithology of rock outcrop"@en ;
+  skos:prefLabel "Lithology of rock outcrop - enumeration"@en ;
 .
 ls:runoff
   a skos:Collection ;
@@ -2461,7 +2301,7 @@ ls:runoff
   skos:member ls:runoff-3 ;
   skos:member ls:runoff-4 ;
   skos:member ls:runoff-5 ;
-  skos:prefLabel "Runoff"@en ;
+  skos:prefLabel "Runoff - enumeration"@en ;
 .
 ls:runoff-0
   a skos:Concept ;
@@ -2517,24 +2357,10 @@ ls:runoff-5
   skos:prefLabel "Very rapid"@en ;
   skos:topConceptOf asls:land-surface ;
 .
-ls:water-erosion
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/water-erosion"^^xsd:anyURI ;
-  skos:definition """Give type and presence/absence or extent of accelerated erosion.
-For sheet, rill and gully erosion there is no consensus in Australia on a quantitative or precise definition of what constitutes minor, moderate and severe erosion. This derives partly from the difficulty of measuring actual soil loss at a site. It also derives partly from the wide range of soils, climates and land uses, variations in any or all of which may alter the concept of minor, moderate or severe erosion.
-The observer wishing to record the severity of erosion may record it as minor, moderate or severe, basing the assessment on local knowledge and guided by indicators that may be present as described below (after Morse et al. 1987). Note the actual depth of soil loss where this can be reliably assessed."""@en ;
-  skos:member ls:erosion-B ;
-  skos:member ls:erosion-G ;
-  skos:member ls:erosion-R ;
-  skos:member ls:erosion-S ;
-  skos:member ls:erosion-T ;
-  skos:member ls:erosion-V ;
-  skos:prefLabel "Water erosion"@en ;
-.
 subst:lithology
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  skos:prefLabel "Lithology"@en ;
+  skos:prefLabel "Lithology - enumeration"@en ;
 .
 subst:lithology-AC
   a skos:Concept ;
@@ -2871,7 +2697,7 @@ subst:lithology-ZS
 subst:material-strength
   a skos:Collection ;
   a sosa:ObservableProperty ;
-  skos:prefLabel "Strength of material"@en ;
+  skos:prefLabel "Strength of material - enumeration"@en ;
 .
 subst:material-strength-M
   a skos:Concept ;
