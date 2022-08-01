@@ -445,7 +445,7 @@ ls:coarse-fragments-lithology
   skos:member subst:lithology-ZS ;
   skos:note "C_LITHOLOGY" ;
   skos:prefLabel "Lithology of coarse fragments - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/coarse-fragments-lithology> ;
+  skos:related <https://anzsoil.org/def/au/property/lithology> ;
 .
 ls:coarse-fragments-shape
   a skos:Collection ;
@@ -2289,7 +2289,7 @@ ls:rock-outcrop-lithology
   skos:member subst:lithology-Z ;
   skos:member subst:lithology-ZS ;
   skos:prefLabel "Lithology of rock outcrop - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/rock-outcrop-lithology> ;
+  skos:related <https://anzsoil.org/def/au/property/lithology> ;
 .
 ls:runoff
   a skos:Collection ;
