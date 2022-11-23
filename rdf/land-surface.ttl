@@ -1,7 +1,6 @@
 # baseURI: http://anzsoil.org/def/au/asls/land-surface
 # imports: http://anzsoil.org/def/au/asls/substrate
 # imports: http://purl.org/dc/elements/1.1/
-# imports: https://anzsoil.org/def/au/property
 
 @prefix asls: <http://anzsoil.org/def/au/asls/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
@@ -40,7 +39,6 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   rdfs:seeAlso <http://www.publish.csiro.au/nid/22/pid/5230.htm> ;
   owl:imports asls:substrate ;
   owl:imports dc: ;
-  owl:imports <https://anzsoil.org/def/au/property> ;
   skos:changeNote "2021-04-07 - replace local lithology concepts with common lithology concepts from Substrate" ;
   skos:changeNote "2021-04-08 - replace local material strength concepts with common material strength concepts from Substrate" ;
   skos:changeNote "2022-07-26 - add observable-properties collection" ;
