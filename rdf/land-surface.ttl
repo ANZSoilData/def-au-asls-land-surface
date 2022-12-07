@@ -120,7 +120,7 @@ ls:Coarse-fragments-strength
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/Coarse-fragments-strength"^^xsd:anyURI ;
   rdfs:comment "C_CF_STRENGTH"@en ;
   rdfs:subClassOf skos:Concept ;
-  owl:equivalentClass subst:Substrate-strength-class ;
+  owl:equivalentClass subst:Material-strength ;
   skos:altLabel "Strength of material"@en ;
   skos:definition "Strength of coarse fragments is the same as for 'Strength of material'. The strength of a specimen of soil substrate material may be crudely estimated in the field by striking it with the head-end or the pick-end of a geological hammer or by trying to cut it with a knife, and then referring to Table 32 (ASLS Field Handbook). These estimates refer to the unconfined (or uniaxial) compressive strength. The strength is that of the intact material rather than that of the mass, the strength of which has generally been reduced by the development of fractures and other phenomena."@en ;
   skos:member subst:material-strength-M ;
