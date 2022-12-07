@@ -31,7 +31,7 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-11-23"^^xsd:date ;
+  dcterms:modified "2022-12-07"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -45,6 +45,7 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   skos:changeNote "2022-07-26 - removed dcterms:description and rdfs:label - duplicates skos:definition andskos:prefLabel" ;
   skos:changeNote "2022-07-29 - replace `sosa:ObservableProperty` type on enumerations with `skos:related` link to the OP in the domain model" ;
   skos:changeNote "2022-11-23 - Rename collections for consistency with ANSIS" ;
+  skos:changeNote "2022-12-07 - remove observable-properties collection" ;
   skos:editorialNote "<p>The data was converted from the print representation to this linked-data form by <a href='https://orcid.org/0000-0002-0693-1899'>Linda Gregory</a> assisted by <a href='https://orcid.org/0000-0002-3884-3420'>Simon J D Cox</a>.</p>"^^rdf:HTML ;
   skos:prefLabel "Land Surface classifiers"@en ;
 .
@@ -58,7 +59,6 @@ ls:Aggradation
   skos:member ls:aggradation-1 ;
   skos:member ls:aggradation-X ;
   skos:prefLabel "Aggradation - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/aggradation> ;
 .
 ls:Coarse-fragments-abundance
   a owl:Class ;
@@ -75,7 +75,6 @@ ls:Coarse-fragments-abundance
   skos:member ls:coarse-fragments-abundance-6 ;
   skos:note "The percentage is estimated by eye using the charts in the yellow book for comparison. N_CF_ABUN"@en ;
   skos:prefLabel "Abundance of coarse fragments - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/coarse-fragments-abundance> ;
 .
 ls:Coarse-fragments-shape
   a owl:Class ;
@@ -97,7 +96,6 @@ ls:Coarse-fragments-shape
   skos:member ls:coarse-fragments-shape-UP ;
   skos:member ls:coarse-fragments-shape-UT ;
   skos:prefLabel "Shape of coarse fragments - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/coarse-fragments-shape> ;
 .
 ls:Coarse-fragments-size
   a owl:Class ;
@@ -115,7 +113,6 @@ ls:Coarse-fragments-size
   skos:note "Note that in preparing soils for laboratory analysis, the greater than 2mm size fraction is commonly recorded as 'gravel'."@en ;
   skos:note "The terms used to describe size apply to fragments of any shape: The average maximum dimension of fragments is used to determine the class interval. N_CF_SIZE"@en ;
   skos:prefLabel "Size of coarse fragments -enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/coarse-fragments-size> ;
 .
 ls:Coarse-fragments-strength
   a owl:Class ;
@@ -132,7 +129,6 @@ ls:Coarse-fragments-strength
   skos:member subst:material-strength-VW ;
   skos:member subst:material-strength-W ;
   skos:prefLabel "Strength of coarse fragments - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/coarse-fragments-strength> ;
 .
 ls:Disturbance-of-site
   a owl:Class ;
@@ -150,7 +146,6 @@ ls:Disturbance-of-site
   skos:member ls:disturbance-of-site-7 ;
   skos:member ls:disturbance-of-site-8 ;
   skos:prefLabel "Disturbance of site - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/disturbance-of-site> ;
 .
 ls:Erosion-depth-gully
   a owl:Class ;
@@ -162,7 +157,6 @@ ls:Erosion-depth-gully
   skos:member ls:erosion-G-depth-2 ;
   skos:member ls:erosion-G-depth-3 ;
   skos:prefLabel "Gully depth - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-gully-depth> ;
 .
 ls:Erosion-gully
   a skos:Collection ;
@@ -197,7 +191,6 @@ ls:Erosion-severity-gully
   skos:member ls:erosion-G-3 ;
   skos:notation "G" ;
   skos:prefLabel "Gully erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-gully> ;
 .
 ls:Erosion-severity-mass-movement
   a owl:Class ;
@@ -209,7 +202,6 @@ ls:Erosion-severity-mass-movement
   skos:member ls:erosion-M-1 ;
   skos:notation "M" ;
   skos:prefLabel "Mass movement - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-mass-movement> ;
 .
 ls:Erosion-severity-rill
   a owl:Class ;
@@ -223,7 +215,6 @@ ls:Erosion-severity-rill
   skos:member ls:erosion-R-3 ;
   skos:notation "R" ;
   skos:prefLabel "Rill erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-rill> ;
 .
 ls:Erosion-severity-scald
   a owl:Class ;
@@ -237,7 +228,6 @@ ls:Erosion-severity-scald
   skos:member ls:erosion-C-3 ;
   skos:notation "C" ;
   skos:prefLabel "Scald erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-scald> ;
 .
 ls:Erosion-severity-sheet
   a owl:Class ;
@@ -252,7 +242,6 @@ ls:Erosion-severity-sheet
   skos:member ls:erosion-S-X ;
   skos:notation "S" ;
   skos:prefLabel "Sheet erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-sheet> ;
 .
 ls:Erosion-severity-stream-bank
   a owl:Class ;
@@ -265,7 +254,6 @@ ls:Erosion-severity-stream-bank
   skos:member ls:erosion-B-X ;
   skos:notation "B" ;
   skos:prefLabel "Stream bank erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-stream-bank> ;
 .
 ls:Erosion-severity-tunnel
   a owl:Class ;
@@ -278,7 +266,6 @@ ls:Erosion-severity-tunnel
   skos:member ls:erosion-T-X ;
   skos:notation "T" ;
   skos:prefLabel "Tunnel erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-tunnel> ;
 .
 ls:Erosion-severity-wave
   a owl:Class ;
@@ -291,7 +278,6 @@ ls:Erosion-severity-wave
   skos:member ls:erosion-V-X ;
   skos:notation "V" ;
   skos:prefLabel "Wave erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-wave> ;
 .
 ls:Erosion-severity-wind
   a owl:Class ;
@@ -307,7 +293,6 @@ ls:Erosion-severity-wind
   skos:member ls:erosion-W-X ;
   skos:notation "W" ;
   skos:prefLabel "Wind erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-wind> ;
 .
 ls:Erosion-state
   a owl:Class ;
@@ -319,7 +304,6 @@ ls:Erosion-state
   skos:member ls:erosion-state-P ;
   skos:member ls:erosion-state-S ;
   skos:prefLabel "State of erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-state> ;
 .
 ls:Erosion-type
   a owl:Class ;
@@ -337,7 +321,6 @@ ls:Erosion-type
   skos:member ls:erosion-type-V ;
   skos:member ls:erosion-type-W ;
   skos:prefLabel "Type of erosion - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/erosion-state> ;
 .
 ls:Inundation-depth
   a owl:Class ;
@@ -351,7 +334,6 @@ ls:Inundation-depth
   skos:member ls:inundation-depth-4 ;
   skos:member ls:inundation-depth-5 ;
   skos:prefLabel "Depth of inundation (annual) - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/inundation-depth> ;
 .
 ls:Inundation-duration
   a owl:Class ;
@@ -364,7 +346,6 @@ ls:Inundation-duration
   skos:member ls:inundation-duration-3 ;
   skos:member ls:inundation-duration-4 ;
   skos:prefLabel "Duration (annual) of inundation - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/inundation-duration> ;
 .
 ls:Inundation-frequency
   a owl:Class ;
@@ -379,7 +360,6 @@ ls:Inundation-frequency
   skos:member ls:inundation-frequency-4 ;
   skos:member ls:inundation-frequency-5 ;
   skos:prefLabel "Frequency of inundation - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/inundation-frequency> ;
 .
 ls:Inundation-runon-velocity
   a owl:Class ;
@@ -390,7 +370,6 @@ ls:Inundation-runon-velocity
   skos:member ls:inundation-runon-velocity-H ;
   skos:member ls:inundation-runon-velocity-L ;
   skos:prefLabel "Runon velocity of inundation - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/inundation-runon-velocity> ;
 .
 ls:Lithology-coarse-fragments
   a owl:Class ;
@@ -400,13 +379,100 @@ ls:Lithology-coarse-fragments
   skos:definition "The lithology of the coarse fragments is usually identified as coming from the substrate or from rock outcrop. Where the lithology of the coarse fragments is different from that of the substrate material and/or rock outcrop, describe it as for lithology of substrate material only where the rock type is definitely known or is confidently presumed. Some coarse fragments are commonly encountered that are not directly related to the substrate material.    "@en ;
   skos:member ls:lithology-CC ;
   skos:member ls:lithology-IS ;
+  skos:member ls:lithology-M ;
   skos:member ls:lithology-OT ;
   skos:member ls:lithology-OW ;
   skos:member ls:lithology-PU ;
+  skos:member ls:lithology-R ;
   skos:member ls:lithology-SS ;
+  skos:member subst:lithology-AC ;
+  skos:member subst:lithology-AD ;
+  skos:member subst:lithology-AF ;
+  skos:member subst:lithology-AG ;
+  skos:member subst:lithology-AH ;
+  skos:member subst:lithology-AM ;
+  skos:member subst:lithology-AN ;
+  skos:member subst:lithology-AP ;
+  skos:member subst:lithology-AR ;
+  skos:member subst:lithology-AS ;
+  skos:member subst:lithology-BA ;
+  skos:member subst:lithology-BB ;
+  skos:member subst:lithology-BO ;
+  skos:member subst:lithology-BR ;
+  skos:member subst:lithology-C ;
+  skos:member subst:lithology-CB ;
+  skos:member subst:lithology-CG ;
+  skos:member subst:lithology-CH ;
+  skos:member subst:lithology-CO ;
+  skos:member subst:lithology-CU ;
+  skos:member subst:lithology-DI ;
+  skos:member subst:lithology-DM ;
+  skos:member subst:lithology-DR ;
+  skos:member subst:lithology-FC ;
+  skos:member subst:lithology-GA ;
+  skos:member subst:lithology-GD ;
+  skos:member subst:lithology-GE ;
+  skos:member subst:lithology-GN ;
+  skos:member subst:lithology-GR ;
+  skos:member subst:lithology-GS ;
+  skos:member subst:lithology-GV ;
+  skos:member subst:lithology-GW ;
+  skos:member subst:lithology-GY ;
+  skos:member subst:lithology-HA ;
+  skos:member subst:lithology-HO ;
+  skos:member subst:lithology-IG ;
+  skos:member subst:lithology-JA ;
+  skos:member subst:lithology-KA ;
+  skos:member subst:lithology-KC ;
+  skos:member subst:lithology-KL ;
+  skos:member subst:lithology-KM ;
+  skos:member subst:lithology-KR ;
+  skos:member subst:lithology-KS ;
+  skos:member subst:lithology-LC ;
+  skos:member subst:lithology-LI ;
+  skos:member subst:lithology-M ;
+  skos:member subst:lithology-MB ;
+  skos:member subst:lithology-MD ;
+  skos:member subst:lithology-ME ;
+  skos:member subst:lithology-MG ;
+  skos:member subst:lithology-MI ;
+  skos:member subst:lithology-ML ;
+  skos:member subst:lithology-MS ;
+  skos:member subst:lithology-MU ;
+  skos:member subst:lithology-MY ;
+  skos:member subst:lithology-PC ;
+  skos:member subst:lithology-PE ;
+  skos:member subst:lithology-PG ;
+  skos:member subst:lithology-PH ;
+  skos:member subst:lithology-PL ;
+  skos:member subst:lithology-PO ;
+  skos:member subst:lithology-PY ;
+  skos:member subst:lithology-QP ;
+  skos:member subst:lithology-QS ;
+  skos:member subst:lithology-QU ;
+  skos:member subst:lithology-QZ ;
+  skos:member subst:lithology-R ;
+  skos:member subst:lithology-RB ;
+  skos:member subst:lithology-RH ;
+  skos:member subst:lithology-S ;
+  skos:member subst:lithology-SA ;
+  skos:member subst:lithology-SD ;
+  skos:member subst:lithology-SH ;
+  skos:member subst:lithology-SK ;
+  skos:member subst:lithology-SL ;
+  skos:member subst:lithology-SN ;
+  skos:member subst:lithology-SR ;
+  skos:member subst:lithology-ST ;
+  skos:member subst:lithology-SY ;
+  skos:member subst:lithology-TR ;
+  skos:member subst:lithology-TU ;
+  skos:member subst:lithology-UC ;
+  skos:member subst:lithology-VB ;
+  skos:member subst:lithology-VG ;
+  skos:member subst:lithology-Z ;
+  skos:member subst:lithology-ZS ;
   skos:note "C_LITHOLOGY" ;
   skos:prefLabel "Lithology of coarse fragments - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/lithology> ;
 .
 ls:Lithology-rock-outcrop
   a owl:Class ;
@@ -498,7 +564,6 @@ ls:Lithology-rock-outcrop
   skos:member subst:lithology-Z ;
   skos:member subst:lithology-ZS ;
   skos:prefLabel "Lithology of rock outcrop - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/lithology> ;
 .
 ls:Microrelief-agent-biotic
   a owl:Class ;
@@ -514,7 +579,6 @@ ls:Microrelief-agent-biotic
   skos:member ls:biotic-microrelief-agent-T ;
   skos:member ls:biotic-microrelief-agent-V ;
   skos:prefLabel "Biotic microrelief agents - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/biotic-microrelief-agents> ;
 .
 ls:Microrelief-component-biotic
   a owl:Class ;
@@ -530,7 +594,6 @@ ls:Microrelief-component-biotic
   skos:member ls:biotic-microrelief-component-O ;
   skos:member ls:biotic-microrelief-component-T ;
   skos:prefLabel "Component of biotic relief - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/biotic-microrelief-components> ;
 .
 ls:Microrelief-component-sampled
   a owl:Class ;
@@ -546,7 +609,6 @@ ls:Microrelief-component-sampled
   skos:member ls:microrelief-component-M ;
   skos:member ls:microrelief-component-S ;
   skos:prefLabel "Component of microrelief sampled - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/microrelief-component-sampled> ;
 .
 ls:Microrelief-proportions-gilgai
   a owl:Class ;
@@ -559,7 +621,6 @@ ls:Microrelief-proportions-gilgai
   skos:member ls:gilgai-microrelief-proportions-C ;
   skos:member ls:gilgai-microrelief-proportions-D ;
   skos:prefLabel "Proportions of gilgai components - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/gilgai-microrelief-proportions> ;
 .
 ls:Microrelief-type-gilgai
   a owl:Class ;
@@ -574,7 +635,6 @@ ls:Microrelief-type-gilgai
   skos:member ls:microrelief-M ;
   skos:member ls:microrelief-N ;
   skos:prefLabel "Type of gilgai microrelief - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/gilgai-microrelief-type> ;
 .
 ls:Microrelief-type-hummocky
   a owl:Class ;
@@ -585,7 +645,6 @@ ls:Microrelief-type-hummocky
   skos:member ls:microrelief-D ;
   skos:member ls:microrelief-W ;
   skos:prefLabel "Type of hummocky microrelief - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/hummocky-microrelief-type> ;
 .
 ls:Microrelief-type-other
   a owl:Class ;
@@ -604,7 +663,6 @@ ls:Microrelief-type-other
   skos:member ls:microrelief-T ;
   skos:member ls:microrelief-U ;
   skos:prefLabel "Type of other microrelief - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/other-microrelief-type> ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:Rock-outcrop-abundance
@@ -620,7 +678,6 @@ ls:Rock-outcrop-abundance
   skos:member ls:rock-outcrop-abundance-4 ;
   skos:member ls:rock-outcrop-abundance-5 ;
   skos:prefLabel "Abundance of rock outcrop - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/rock-outcrop-abundance> ;
 .
 ls:Runoff
   a owl:Class ;
@@ -635,7 +692,6 @@ ls:Runoff
   skos:member ls:runoff-4 ;
   skos:member ls:runoff-5 ;
   skos:prefLabel "Runoff - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/runoff> ;
 .
 ls:aggradation-0
   a ls:Aggradation ;
@@ -673,7 +729,6 @@ ls:aspect
   skos:definition "Give as compass bearing to nearest 10 degrees. On level lands (less than 1% slope), aspect need not be recorded."@en ;
   skos:inScheme asls:land-surface ;
   skos:prefLabel "Aspect"@en ;
-  skos:related <https://anzsoil.org/def/au/property/aspect> ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:biotic-microrelief
@@ -1128,7 +1183,6 @@ ls:depth-free-water
   skos:member ls:depth-free-water-above ;
   skos:member ls:depth-free-water-below ;
   skos:prefLabel "Depth to free water - enumeration"@en ;
-  skos:related <https://anzsoil.org/def/au/property/depth-free-water> ;
 .
 ls:depth-free-water-0
   a ls:depth-free-water ;
@@ -1257,7 +1311,6 @@ ls:drainage-height
   skos:member ls:drainage-height-evaluation-means ;
   skos:member ls:drainage-height-value ;
   skos:prefLabel "Drainage height"@en ;
-  skos:related <https://anzsoil.org/def/au/property/drainage-height> ;
 .
 ls:drainage-height-evaluation-means
   a owl:Class ;
@@ -1270,30 +1323,6 @@ ls:drainage-height-evaluation-means
   skos:member ls:elevation-evaluation-means-L ;
   skos:member ls:elevation-evaluation-means-M ;
   skos:prefLabel "Means of evaluation of drainage height - enumeration"@en ;
-.
-ls:drainage-height-evaluation-means-A
-  a skos:Concept ;
-  a sosa:Procedure ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-A"^^xsd:anyURI ;
-  skos:prefLabel "Determined by altimeter (drainage height)"@en ;
-.
-ls:drainage-height-evaluation-means-E
-  a skos:Concept ;
-  a sosa:Procedure ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-E"^^xsd:anyURI ;
-  skos:prefLabel "Estimate (drainage height)"@en ;
-.
-ls:drainage-height-evaluation-means-L
-  a skos:Concept ;
-  a sosa:Procedure ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-L"^^xsd:anyURI ;
-  skos:prefLabel "Levelled from survey datum or estimated from contour plan (drainage height)"@en ;
-.
-ls:drainage-height-evaluation-means-M
-  a skos:Concept ;
-  a sosa:Procedure ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/drainage-height-evaluation-means-M"^^xsd:anyURI ;
-  skos:prefLabel "Interpolated from contour map (drainage height)"@en ;
 .
 ls:drainage-height-value
   a ls:drainage-height ;
@@ -1308,7 +1337,6 @@ ls:elevation
   skos:member ls:elevation-evaluation-means ;
   skos:member ls:elevation-value ;
   skos:prefLabel "Elevation in metres above sea-level"@en ;
-  skos:related <https://anzsoil.org/def/au/property/elevation> ;
 .
 ls:elevation-evaluation-means
   a owl:Class ;
@@ -2474,7 +2502,6 @@ ls:microrelief-horizontal-interval
   skos:definition "Give horizontal distance, in metres, between crests of mounds or tops of hummocks."@en ;
   skos:inScheme asls:land-surface ;
   skos:prefLabel "Horizontal interval"@en ;
-  skos:related <https://anzsoil.org/def/au/property/microrelief-horizontal-interval> ;
   skos:topConceptOf asls:land-surface ;
 .
 ls:microrelief-vertical-interval
@@ -2484,62 +2511,7 @@ ls:microrelief-vertical-interval
   skos:definition "Give vertical distance, in metres, between base of depression or flat and horizontal line joining crests of mounds or hummocks."@en ;
   skos:inScheme asls:land-surface ;
   skos:prefLabel "Vertical interval"@en ;
-  skos:related <https://anzsoil.org/def/au/property/microrelief-vertical-interval> ;
   skos:topConceptOf asls:land-surface ;
-.
-ls:observable-properties
-  a owl:Class ;
-  a skos:Collection ;
-  rdfs:subClassOf skos:Concept ;
-  skos:member <https://anzsoil.org/def/au/property/aggradation> ;
-  skos:member <https://anzsoil.org/def/au/property/alteration> ;
-  skos:member <https://anzsoil.org/def/au/property/aspect> ;
-  skos:member <https://anzsoil.org/def/au/property/biotic-microrelief-agents> ;
-  skos:member <https://anzsoil.org/def/au/property/biotic-microrelief-components> ;
-  skos:member <https://anzsoil.org/def/au/property/coarse-fragments-abundance> ;
-  skos:member <https://anzsoil.org/def/au/property/coarse-fragments-lithology> ;
-  skos:member <https://anzsoil.org/def/au/property/coarse-fragments-shape> ;
-  skos:member <https://anzsoil.org/def/au/property/coarse-fragments-size> ;
-  skos:member <https://anzsoil.org/def/au/property/coarse-fragments-strength> ;
-  skos:member <https://anzsoil.org/def/au/property/confidence> ;
-  skos:member <https://anzsoil.org/def/au/property/depth-free-water> ;
-  skos:member <https://anzsoil.org/def/au/property/disturbance-of-site> ;
-  skos:member <https://anzsoil.org/def/au/property/drainage-height> ;
-  skos:member <https://anzsoil.org/def/au/property/elevation> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-gully> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-gully-depth> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-mass-movement> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-rill> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-scald> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-sheet> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-state> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-stream-bank> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-tunnel> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-wave> ;
-  skos:member <https://anzsoil.org/def/au/property/erosion-wind> ;
-  skos:member <https://anzsoil.org/def/au/property/gilgai-microrelief-proportions> ;
-  skos:member <https://anzsoil.org/def/au/property/gilgai-microrelief-type> ;
-  skos:member <https://anzsoil.org/def/au/property/grain-size> ;
-  skos:member <https://anzsoil.org/def/au/property/hummocky-microrelief-type> ;
-  skos:member <https://anzsoil.org/def/au/property/inundation-depth> ;
-  skos:member <https://anzsoil.org/def/au/property/inundation-duration> ;
-  skos:member <https://anzsoil.org/def/au/property/inundation-frequency> ;
-  skos:member <https://anzsoil.org/def/au/property/inundation-runon-velocity> ;
-  skos:member <https://anzsoil.org/def/au/property/lithology> ;
-  skos:member <https://anzsoil.org/def/au/property/material-structure> ;
-  skos:member <https://anzsoil.org/def/au/property/microrelief-component-sampled> ;
-  skos:member <https://anzsoil.org/def/au/property/microrelief-horizontal-interval> ;
-  skos:member <https://anzsoil.org/def/au/property/microrelief-vertical-interval> ;
-  skos:member <https://anzsoil.org/def/au/property/mineral-composition> ;
-  skos:member <https://anzsoil.org/def/au/property/observation-depth> ;
-  skos:member <https://anzsoil.org/def/au/property/other-microrelief-type> ;
-  skos:member <https://anzsoil.org/def/au/property/rock-outcrop-abundance> ;
-  skos:member <https://anzsoil.org/def/au/property/rock-outcrop-lithology> ;
-  skos:member <https://anzsoil.org/def/au/property/runoff> ;
-  skos:member <https://anzsoil.org/def/au/property/sample-distance> ;
-  skos:member <https://anzsoil.org/def/au/property/substrate-genesis> ;
-  skos:member <https://anzsoil.org/def/au/property/texture> ;
-  skos:prefLabel "Observable properties of land surface" ;
 .
 ls:rock-outcrop
   a skos:Collection ;
@@ -2680,6 +2652,7 @@ subst:lithology-AD
 subst:lithology-AF
   a skos:Concept ;
   skos:prefLabel "Ash (fine)"@en ;
+  skos:prefLabel "Volcanic ash (fine)"@en ;
 .
 subst:lithology-AG
   a skos:Concept ;
@@ -2708,6 +2681,7 @@ subst:lithology-AR
 subst:lithology-AS
   a skos:Concept ;
   skos:prefLabel "Ash (sandy)"@en ;
+  skos:prefLabel "Volcanic ash (sandy)"@en ;
 .
 subst:lithology-BA
   a skos:Concept ;
@@ -2715,7 +2689,11 @@ subst:lithology-BA
 .
 subst:lithology-BB
   a skos:Concept ;
-  skos:prefLabel "Bombs"@en ;
+  skos:prefLabel "Bombs (or blocks)"@en ;
+.
+subst:lithology-BO
+  a skos:Concept ;
+  skos:prefLabel "Boulders" ;
 .
 subst:lithology-BR
   a skos:Concept ;
@@ -2724,6 +2702,10 @@ subst:lithology-BR
 subst:lithology-C
   a skos:Concept ;
   skos:prefLabel "Clay"@en ;
+.
+subst:lithology-CB
+  a skos:Concept ;
+  skos:prefLabel "Cobbles" ;
 .
 subst:lithology-CG
   a skos:Concept ;
@@ -2961,6 +2943,10 @@ subst:lithology-SL
   a skos:Concept ;
   skos:prefLabel "Slate"@en ;
 .
+subst:lithology-SN
+  a skos:Concept ;
+  skos:prefLabel "Stones" ;
+.
 subst:lithology-SR
   a skos:Concept ;
   skos:prefLabel "Serpentinite"@en ;
@@ -3020,244 +3006,4 @@ subst:material-strength-VW
 subst:material-strength-W
   a skos:Concept ;
   skos:prefLabel "Weak rock"@en ;
-.
-<https://anzsoil.org/def/au/property/aggradation>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Aggradation"@en ;
-.
-<https://anzsoil.org/def/au/property/alteration>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Alteration" ;
-.
-<https://anzsoil.org/def/au/property/aspect>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Aspect"@en ;
-.
-<https://anzsoil.org/def/au/property/biotic-microrelief-agents>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Biotic microrelief agents"@en ;
-.
-<https://anzsoil.org/def/au/property/biotic-microrelief-components>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Component of biotic relief"@en ;
-.
-<https://anzsoil.org/def/au/property/coarse-fragments-abundance>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Abundance of coarse fragments"@en ;
-.
-<https://anzsoil.org/def/au/property/coarse-fragments-lithology>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Lithology of coarse fragments"@en ;
-.
-<https://anzsoil.org/def/au/property/coarse-fragments-shape>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Shape of coarse fragments"@en ;
-.
-<https://anzsoil.org/def/au/property/coarse-fragments-size>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Size of coarse fragments"@en ;
-.
-<https://anzsoil.org/def/au/property/coarse-fragments-strength>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Strength of coarse fragments"@en ;
-.
-<https://anzsoil.org/def/au/property/confidence>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Confidence that substrate is parent material" ;
-.
-<https://anzsoil.org/def/au/property/depth-free-water>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Depth to free water"@en ;
-.
-<https://anzsoil.org/def/au/property/disturbance-of-site>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Disturbance of site"@en ;
-.
-<https://anzsoil.org/def/au/property/drainage-height>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Drainage height"@en ;
-.
-<https://anzsoil.org/def/au/property/elevation>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Elevation in metres above sea-level"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-gully>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Gully erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-gully-depth>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Gully depth"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-mass-movement>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Mass movement"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-rill>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Rill erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-scald>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Scald erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-sheet>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Sheet erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-state>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "State of erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-stream-bank>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Stream bank erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-tunnel>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Tunnel erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-wave>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Wave erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/erosion-wind>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Wind erosion"@en ;
-.
-<https://anzsoil.org/def/au/property/gilgai-microrelief-proportions>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Proportions of gilgai components"@en ;
-.
-<https://anzsoil.org/def/au/property/gilgai-microrelief-type>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Type of gilgai microrelief"@en ;
-.
-<https://anzsoil.org/def/au/property/grain-size>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Grain size" ;
-.
-<https://anzsoil.org/def/au/property/hummocky-microrelief-type>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Type of hummocky microrelief"@en ;
-.
-<https://anzsoil.org/def/au/property/inundation-depth>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Depth of inundation (annual)"@en ;
-.
-<https://anzsoil.org/def/au/property/inundation-duration>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Duration (annual) of inundation"@en ;
-.
-<https://anzsoil.org/def/au/property/inundation-frequency>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Frequency of inundation"@en ;
-.
-<https://anzsoil.org/def/au/property/inundation-runon-velocity>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Runon velocity of inundation"@en ;
-.
-<https://anzsoil.org/def/au/property/lithology>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Lithology"@en ;
-.
-<https://anzsoil.org/def/au/property/material-structure>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Structure" ;
-.
-<https://anzsoil.org/def/au/property/microrelief-component-sampled>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Component of microrelief sampled"@en ;
-.
-<https://anzsoil.org/def/au/property/microrelief-horizontal-interval>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Horizontal interval"@en ;
-.
-<https://anzsoil.org/def/au/property/microrelief-vertical-interval>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Vertical interval"@en ;
-.
-<https://anzsoil.org/def/au/property/mineral-composition>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Mineral composition" ;
-.
-<https://anzsoil.org/def/au/property/observation-depth>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Observation depth" ;
-.
-<https://anzsoil.org/def/au/property/other-microrelief-type>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Type of other microrelief"@en ;
-.
-<https://anzsoil.org/def/au/property/rock-outcrop-abundance>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Abundance of rock outcrop"@en ;
-.
-<https://anzsoil.org/def/au/property/rock-outcrop-lithology>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Lithology of rock outcrop"@en ;
-.
-<https://anzsoil.org/def/au/property/runoff>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Runoff"@en ;
-.
-<https://anzsoil.org/def/au/property/sample-distance>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Substrate-soil distance" ;
-.
-<https://anzsoil.org/def/au/property/substrate-genesis>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Genetic type of substrate masses" ;
-.
-<https://anzsoil.org/def/au/property/texture>
-  a skos:Concept ;
-  a sosa:ObservableProperty ;
-  skos:prefLabel "Texture" ;
 .
