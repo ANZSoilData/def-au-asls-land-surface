@@ -31,7 +31,7 @@ Land surface is concerned mainly with surface phenomena affecting land use and s
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface"^^xsd:anyURI ;
   dcterms:isFormatOf <https://catalogue.nla.gov.au/Record/4273240> ;
   dcterms:license <http://creativecommons.org/licences/by/4.0> ;
-  dcterms:modified "2022-12-07"^^xsd:date ;
+  dcterms:modified "2022-12-16"^^xsd:date ;
   dcterms:publisher <http://www.publish.csiro.au/> ;
   dcterms:rights "copyright CSIRO 2009, 2021. All rights reserved."@en ;
   dcterms:source "National Committee on Soil and Terrain (2009), 'Australian soil and land survey field handbook (3rd edn).' (CSIRO Publishing: Melbourne)"@en ;
@@ -146,6 +146,18 @@ ls:Disturbance-of-site
   skos:member ls:disturbance-of-site-7 ;
   skos:member ls:disturbance-of-site-8 ;
   skos:prefLabel "Disturbance of site - enumeration"@en ;
+.
+ls:Elevation-evaluation-means
+  a owl:Class ;
+  a skos:Collection ;
+  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means"^^xsd:anyURI ;
+  rdfs:subClassOf skos:Concept ;
+  skos:definition "Means of evaluation of elevation"@en ;
+  skos:member ls:elevation-evaluation-means-A ;
+  skos:member ls:elevation-evaluation-means-E ;
+  skos:member ls:elevation-evaluation-means-L ;
+  skos:member ls:elevation-evaluation-means-M ;
+  skos:prefLabel "Means of evaluation of elevation - enumeration"@en ;
 .
 ls:Erosion-depth-gully
   a owl:Class ;
@@ -1174,10 +1186,8 @@ ls:coarse-fragments-size-7
   skos:topConceptOf asls:land-surface ;
 .
 ls:depth-free-water
-  a owl:Class ;
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/depth-free-water"^^xsd:anyURI ;
-  rdfs:subClassOf skos:Concept ;
   skos:definition "Give depth to free water at the site of soil observation, in metres, either above or below the soil surface, excluding litter and living vegetation. "@en ;
   skos:member ls:depth-free-water-0 ;
   skos:member ls:depth-free-water-above ;
@@ -1185,7 +1195,6 @@ ls:depth-free-water
   skos:prefLabel "Depth to free water - enumeration"@en ;
 .
 ls:depth-free-water-0
-  a ls:depth-free-water ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/depth-free-water-0"^^xsd:anyURI ;
   skos:definition "If there is no free water, record:"@en ;
@@ -1195,7 +1204,6 @@ ls:depth-free-water-0
   skos:topConceptOf asls:land-surface ;
 .
 ls:depth-free-water-above
-  a ls:depth-free-water ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/depth-free-water-above"^^xsd:anyURI ;
   skos:definition "Above soil surface."@en ;
@@ -1205,7 +1213,6 @@ ls:depth-free-water-above
   skos:topConceptOf asls:land-surface ;
 .
 ls:depth-free-water-below
-  a ls:depth-free-water ;
   a skos:Concept ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/depth-free-water-below"^^xsd:anyURI ;
   skos:definition "Below soil surface."@en ;
@@ -1334,25 +1341,13 @@ ls:elevation
   a skos:Collection ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation"^^xsd:anyURI ;
   skos:definition "Give in metres above sea-level."@en ;
-  skos:member ls:elevation-evaluation-means ;
+  skos:member ls:Elevation-evaluation-means ;
   skos:member ls:elevation-value ;
   skos:prefLabel "Elevation in metres above sea-level"@en ;
 .
-ls:elevation-evaluation-means
-  a owl:Class ;
-  a skos:Collection ;
-  dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means"^^xsd:anyURI ;
-  rdfs:subClassOf skos:Concept ;
-  skos:definition "Means of evaluation of elevation"@en ;
-  skos:member ls:elevation-evaluation-means-A ;
-  skos:member ls:elevation-evaluation-means-E ;
-  skos:member ls:elevation-evaluation-means-L ;
-  skos:member ls:elevation-evaluation-means-M ;
-  skos:prefLabel "Means of evaluation of elevation - enumeration"@en ;
-.
 ls:elevation-evaluation-means-A
+  a ls:Elevation-evaluation-means ;
   a ls:drainage-height-evaluation-means ;
-  a ls:elevation-evaluation-means ;
   a skos:Concept ;
   a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-A"^^xsd:anyURI ;
@@ -1363,8 +1358,8 @@ ls:elevation-evaluation-means-A
   skos:topConceptOf asls:land-surface ;
 .
 ls:elevation-evaluation-means-E
+  a ls:Elevation-evaluation-means ;
   a ls:drainage-height-evaluation-means ;
-  a ls:elevation-evaluation-means ;
   a skos:Concept ;
   a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-E"^^xsd:anyURI ;
@@ -1375,8 +1370,8 @@ ls:elevation-evaluation-means-E
   skos:topConceptOf asls:land-surface ;
 .
 ls:elevation-evaluation-means-L
+  a ls:Elevation-evaluation-means ;
   a ls:drainage-height-evaluation-means ;
-  a ls:elevation-evaluation-means ;
   a skos:Concept ;
   a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-L"^^xsd:anyURI ;
@@ -1387,8 +1382,8 @@ ls:elevation-evaluation-means-L
   skos:topConceptOf asls:land-surface ;
 .
 ls:elevation-evaluation-means-M
+  a ls:Elevation-evaluation-means ;
   a ls:drainage-height-evaluation-means ;
-  a ls:elevation-evaluation-means ;
   a skos:Concept ;
   a sosa:Procedure ;
   dcterms:identifier "http://anzsoil.org/def/au/asls/land-surface/elevation-evaluation-means-M"^^xsd:anyURI ;
