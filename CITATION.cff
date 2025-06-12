@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: Cox
+    given-names: Simon
+    orcid: https://orcid.org/0000-0002-3884-3420
+title: "Machine-readable representation of a the classifiers for Land Surface - from Chapter 7 of the Australian soil and land survey field handbook (3rd edn)"
+version: 1.0.0
+doi:  
+url: https://github.com/ANZSoilData/def-au-asls-land-surface
+date-released: 2022-12-16
+license: CC0
+license-url: https://creativecommons.org/choose/zero/
+abstract: >
+  Machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn)
