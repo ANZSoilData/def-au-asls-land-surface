@@ -1,15 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+title: >-
+  Resource Description format (RDF) representation of the
+  Australian Soil Classification - GitHub repository code.
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
 authors:
-  - family-names: Cox
-    given-names: Simon
-    orcid: https://orcid.org/0000-0002-3884-3420
-title: "Machine-readable representation of a the classifiers for Land Surface - from Chapter 7 of the Australian soil and land survey field handbook (3rd edn)"
-version: 1.0.0
-doi:  
-url: https://github.com/ANZSoilData/def-au-asls-land-surface
-date-released: 2022-12-16
-license: CC0
-license-url: https://creativecommons.org/choose/zero/
-abstract: >
-  Machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn)
+  - given-names: Simon
+    family-names: Cox
+    orcid: 'https://orcid.org/0000-0002-3884-3420'
+repository-code: 'https://github.com/ANZSoilData/def-au-asc'
+url: 'https://anzsoildata.github.io/def-au-asc/'
+repository: 'https://vocabs.ardc.edu.au'
+abstract: >-
+  The Australian Soil Classification (3rd edn 2021) provides
+  a framework for organising knowledge about Australian
+  soils by allocating soils to classes via a key.
+
+  This repository is for the preparation and maintenance of
+  a machine-readable representation of the ASC ontology (OWL
+  representation) of
+  https://catalogue.nla.gov.au/catalog/8558027
+
+  and the Glossary of terms referenced by the ASC (SKOS
+  representation)
+keywords:
+  - soil classification
+  - linked data
+  - vocabularies
+license: CC-BY-1.0
+version: 1.0.1
+date-released: '2022-12-16'
