@@ -1,3 +1,6 @@
+Cite as: ![image](https://github.com/user-attachments/assets/7290ba1d-9f31-4ac5-836b-8d74ad38abcf)
+
+
 # def-au-asls-land-surface
 
 Preparation and maintenance of a machine-readable representation of the classifiers described in chapter 7 Land Surface, by R.C. McDonald, R.F. Isbell and J.G. Speight, in Australian soil and land survey field handbook (3rd edn)
